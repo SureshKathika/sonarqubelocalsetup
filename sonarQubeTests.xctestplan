@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "913903AF-6656-4359-B4ED-02CE23EE5A61",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:sonarQubeTestCaseSetup.xcodeproj",
+        "identifier" : "6938D5E52CF4F3EB0043F6B7",
+        "name" : "sonarQubeTestCaseSetupTests"
+      }
+    }
+  ],
+  "version" : 1
+}
