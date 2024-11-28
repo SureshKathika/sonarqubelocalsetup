@@ -1,0 +1,88 @@
+Plugins:
+Bundled analyzers:
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - IaC Code Quality and Security 1.36.0.12431 (iac)
+  - Text Code Quality and Security 2.16.0.4008 (text)
+  - Clean as You Code 2.4.0.2018 (cayc)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+Global server settings:
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.core.id=4F833BF3-AZNiUpuhqoE8LhfGSnzh
+  - sonar.core.startTime=2024-11-26T19:02:10+0000
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.forceAuthentication=true
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/application*.properties,**/src/main/resources/**/application*.yaml,**/src/main/resources/**/application*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.python.file.suffixes=py
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project server settings:
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/application*.properties,**/src/main/resources/**/application*.yaml,**/src/main/resources/**/application*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.python.file.suffixes=py
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project scanner properties:
+  - sonar.exclusions=**/*.xml,**/Pods/**/*,**/Reports/**/*,**/Talsec/**/*,**/Swinject/**/*
+  - sonar.host.url=http://localhost:9001
+  - sonar.inclusions=**/*.swift
+  - sonar.language=swift
+  - sonar.links.scm=https://github.com/SureshKathika/sonarqubelocalsetup.git
+  - sonar.login=******
+  - sonar.projectBaseDir=/Users/2054410/Desktop/sonarQubeTestCaseSetup/sonarQubeTestCaseSetup
+  - sonar.projectKey=sonarlocalsetup
+  - sonar.projectName=sonarQubeTestCaseSetUp
+  - sonar.projectVersion=1.0
+  - sonar.scanner.apiBaseUrl=http://localhost:9001/api/v2
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=6.2.1.4610
+  - sonar.scanner.arch=arm64
+  - sonar.scanner.bootstrapStartTime=1732648834158
+  - sonar.scanner.home=/opt/homebrew/Cellar/sonar-scanner/6.2.1.4610/libexec
+  - sonar.scanner.os=macos
+  - sonar.scanner.wasEngineCacheHit=true
+  - sonar.scanner.wasJreCacheHit=HIT
+  - sonar.scm.provider=git
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=.
+  - sonar.swift.appScheme=sonarQubeTestCaseSetUp
+  - sonar.swift.project=sonarQubeTestCaseSetUp.xcodeproj
+  - sonar.swift.simulator=platform=iOS Simulator,name=iPhone X
+  - sonar.swift.workspace=sonarQubeTestCaseSetUp.xcworkspace
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/2054410/Desktop/sonarQubeTestCaseSetup/sonarQubeTestCaseSetup/.scannerwork

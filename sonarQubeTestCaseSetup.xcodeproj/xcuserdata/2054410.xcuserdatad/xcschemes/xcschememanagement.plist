@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>sonarQubeTestCaseSetup.xcscheme_^#shared#^_</key>
+		<key>sonarQubeTests.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6938D5CC2CF4F3E60043F6B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6938D5E52CF4F3EB0043F6B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6938D5EF2CF4F3EB0043F6B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

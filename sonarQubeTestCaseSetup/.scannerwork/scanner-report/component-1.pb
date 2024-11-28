@@ -1,0 +1,1 @@
+sonarQubeTestCaseSetUp B<8https://github.com/SureshKathika/sonarqubelocalsetup.gitRsonarlocalsetup

@@ -1,0 +1,6 @@
+projectKey=sonarlocalsetup
+serverUrl=http://localhost:9001
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9001/dashboard?id=sonarlocalsetup
+ceTaskId=7ef1f3b9-b3f0-459e-9865-bca9e6b66ca1
+ceTaskUrl=http://localhost:9001/api/ce/task?id=7ef1f3b9-b3f0-459e-9865-bca9e6b66ca1
